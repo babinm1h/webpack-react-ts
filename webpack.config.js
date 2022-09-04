@@ -38,6 +38,7 @@ module.exports = {
 
   // точка выхода
   output: {
+    assetModuleFilename: "assets/[hash][ext][query]",
     path: PATHS.dist,
     clean: true,
   },
